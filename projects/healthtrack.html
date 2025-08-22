@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTrack Pro - TechVision</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">TV</div>
+                <span>TechVision</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../index.html#profile">Profil</a></li>
+                <li><a href="../index.html#projects">Proyek</a></li>
+                <li><a href="../index.html#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Detail -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-logo">🏥</div>
+                <h1 class="project-title">HealthTrack Pro</h1>
+                <p class="project-subtitle">Aplikasi Mobile Monitoring Kesehatan Real-time dengan IoT</p>
+            </div>
+
+            <div class="project-content">
+                <div class="content-section">
+                    <h2>Deskripsi Aplikasi</h2>
+                    <p>HealthTrack Pro adalah aplikasi mobile comprehensive untuk monitoring kesehatan yang mengintegrasikan perangkat IoT, analisis data real-time, dan prediksi kesehatan berbasis AI. Aplikasi ini memungkinkan pengguna untuk memantau berbagai parameter kesehatan secara kontinyu dengan teknologi sensor terdepan.</p>
+                    
+                    <p>Dengan dukungan integrasi perangkat wearable seperti smartwatch, fitness tracker, dan medical devices, HealthTrack Pro memberikan gambaran kesehatan yang komprehensif. Sistem AI yang terintegrasi dapat menganalisis pola kesehatan dan memberikan rekomendasi serta peringatan dini untuk mencegah masalah kesehatan serius.</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>Keunggulan Aplikasi</h2>
+                    <ul>
+                        <li><strong>Real-time Monitoring:</strong> Pantau detak jantung, tekanan darah, saturasi oksigen, dan vital signs lainnya secara real-time dengan akurasi tinggi.</li>
+                        <li><strong>IoT Integration:</strong> Koneksi seamless dengan smartwatch, fitness tracker, blood pressure monitor, dan berbagai medical devices melalui Bluetooth dan WiFi.</li>
+                        <li><strong>Predictive Analytics:</strong> AI yang dapat memprediksi risiko kesehatan berdasarkan data historis, pola tidur, aktivitas fisik, dan parameter kesehatan lainnya.</li>
+                        <li><strong>Emergency Alert:</strong> Sistem notifikasi otomatis ke keluarga, dokter, dan layanan darurat saat terdeteksi kondisi kritis atau anomali kesehatan.</li>
+                        <li><strong>Health Dashboard:</strong> Visualisasi data kesehatan yang komprehensif dengan grafik trend, analisis mingguan/bulanan, dan laporan kesehatan personal.</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Teknologi yang Digunakan</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <strong>Mobile:</strong><br>
+                            React Native, Expo, TypeScript
+                        </div>
+                        <div class="tech-item">
+                            <strong>Backend:</strong><br>
+                            Node.js, Express.js, Socket.io
+                        </div>
+                        <div class="tech-item">
+                            <strong>Database:</strong><br>
+                            MongoDB, InfluxDB (time-series)
+                        </div>
+                        <div class="tech-item">
+                            <strong>AI/ML:</strong><br>
+                            Python, TensorFlow, Pandas, NumPy
+                        </div>
+                        <div class="tech-item">
+                            <strong>IoT:</strong><br>
+                            MQTT, WebSocket, Bluetooth LE
+                        </div>
+                        <div class="tech-item">
+                            <strong>Cloud:</strong><br>
+                            AWS IoT Core, Lambda, S3
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>Flowchart & ERD Aplikasi</h2>
+                    <div class="flowchart-erd">
+                        <h3>📊 Flowchart Sistem</h3>
+                        <p><strong>Device Connection</strong> → <strong>Data Collection</strong> → <strong>Real-time Processing</strong> → <strong>AI Health Analysis</strong> → <strong>Risk Assessment</strong> → <strong>Health Scoring</strong> → <strong>Alert Generation</strong> → <strong>Dashboard Update</strong> → <strong>Report Generation</strong></p>
+                        
+                        <h3>🗂️ Entity Relationship Diagram (ERD)</h3>
+                        <p><strong>Users</strong> (user_id, name, age, medical_history) ↔ <strong>Health_Profiles</strong> (profile_id, baseline_vitals, conditions) ↔ <strong>Devices</strong> (device_id, type, model, connection_status) ↔ <strong>Health_Data</strong> (data_id, timestamp, value, type) ↔ <strong>Alerts</strong> (alert_id, severity, message, timestamp) ↔ <strong>Medical_Reports</strong> (report_id, period, summary, recommendations)</p>
+                        
+                        <h3>🔄 IoT Data Flow</h3>
+                        <p><strong>Sensor Data Collection</strong> → <strong>Edge Processing</strong> → <strong>Data Transmission</strong> → <strong>Cloud Processing</strong> → <strong>AI Analysis</strong> → <strong>Real-time Alerts</strong> → <strong>Mobile App Update</strong></p>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>Fitur Utama</h2>
+                    <ul>
+                        <li><strong>Vital Signs Monitoring:</strong> Detak jantung, tekanan darah, suhu tubuh, saturasi oksigen</li>
+                        <li><strong>Activity Tracking:</strong> Langkah harian, kalori terbakar, jarak tempuh, aktivitas olahraga</li>
+                        <li><strong>Sleep Analysis:</strong> Kualitas tidur, durasi tidur, pola tidur REM dan deep sleep</li>
+                        <li><strong>Medication Reminder:</strong> Pengingat minum obat dengan tracking kepatuhan</li>
+                        <li><strong>Appointment Scheduler:</strong> Jadwal konsultasi dokter dan medical check-up</li>
+                        <li><strong>Family Sharing:</strong> Berbagi data kesehatan dengan keluarga dan caregiver</li>
+                        <li><strong>Doctor Portal:</strong> Dashboard khusus untuk tenaga medis memantau pasien</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Target Pengguna</h2>
+                    <ul>
+                        <li><strong>Individu Proaktif:</strong> Orang yang peduli dengan kesehatan dan ingin monitoring rutin</li>
+                        <li><strong>Pasien Kronis:</strong> Penderita diabetes, hipertensi, jantung yang butuh monitoring ketat</li>
+                        <li><strong>Lansia:</strong> Senior citizen yang memerlukan pemantauan kesehatan berkelanjutan</li>
+                        <li><strong>Atlet & Fitness Enthusiast:</strong> Mereka yang ingin optimasi performa fisik</li>
+                        <li><strong>Healthcare Providers:</strong> Rumah sakit, klinik, dan tenaga medis untuk remote patient monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Keamanan & Privasi</h2>
+                    <p>HealthTrack Pro mengimplementasikan standar keamanan tertinggi untuk melindungi data kesehatan pengguna:</p>
+                    <ul>
+                        <li><strong>End-to-End Encryption:</strong> Semua data dienkripsi dari device hingga cloud storage</li>
+                        <li><strong>HIPAA Compliance:</strong> Mematuhi standar regulasi kesehatan internasional</li>
+                        <li><strong>Secure Authentication:</strong> Multi-factor authentication dan biometric security</li>
+                        <li><strong>Data Anonymization:</strong> Data untuk research dan AI training dianonimkan</li>
+                        <li><strong>Local Storage Option:</strong> Pilihan menyimpan data sensitif hanya di device lokal</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Status Pengembangan</h2>
+                    <p><strong>Status:</strong> <span style="background: linear-gradient(45deg, #ffa726, #ff9800); color: white; padding: 5px 15px; border-radius: 20px;">In Development</span></p>
+                    <p><strong>Timeline:</strong> Q1 2024 - Q3 2024</p>
+                    <p><strong>Current Progress:</strong> 65% Complete</p>
+                    <p><strong>Next Milestone:</strong> Beta Testing dengan partner healthcare (Q3 2024)</p>
+                    <p><strong>Expected Launch:</strong> Q4 2024</p>
+                </div>
+
+                <a href="../index.html" class="back-button">← Kembali ke Beranda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechVision</h3>
+                    <p>Startup teknologi terdepan yang fokus pada inovasi digital untuk masa depan yang lebih baik.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Lokasi</h3>
+                    <p>Jl. Malioboro No. 123<br>
+                    Yogyakarta, DIY 55271<br>
+                    Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p>Email: info@techvision.id</p>
+                    <p>Telepon: +62 274 123 456</p>
+                    <p>Instagram: @techvision_id</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechVision. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTech Solution - TechVision</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">TV</div>
+                <span>TechVision</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../index.html#profile">Profil</a></li>
+                <li><a href="../index.html#projects">Proyek</a></li>
+                <li><a href="../index.html#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Project Detail -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-logo">💰</div>
+                <h1 class="project-title">FinTech Solution</h1>
+                <p class="project-subtitle">Platform Fintech Terintegrasi untuk UMKM Indonesia</p>
+            </div>
+
+            <div class="project-content">
+                <div class="content-section">
+                    <h2>Deskripsi Aplikasi</h2>
+                    <p>FinTech Solution adalah platform fintech terintegrasi yang dirancang khusus untuk UMKM (Usaha Mikro, Kecil, dan Menengah) di Indonesia. Platform ini menyediakan layanan pembayaran digital, manajemen keuangan, dan akses kredit mikro dengan proses yang mudah, aman, dan terjangkau.</p>
+                    
+                    <p>Dengan memahami tantangan yang dihadapi UMKM dalam akses finansial dan teknologi, FinTech Solution hadir sebagai solusi komprehensif yang menggabungkan kemudahan pembayaran digital, sistem manajemen keuangan yang intuitif, dan akses permodalan yang fair. Platform ini juga dilengkapi dengan fitur analytics dan reporting untuk membantu UMKM membuat keputusan bisnis yang lebih baik.</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>Keunggulan Aplikasi</h2>
+                    <ul>
+                        <li><strong>Multi-Payment Gateway:</strong> Terima pembayaran dari berbagai channel termasuk QRIS, e-wallet (GoPay, OVO, DANA), bank transfer, dan virtual account dari semua bank major.</li>
+                        <li><strong>Financial Dashboard:</strong> Laporan keuangan real-time dengan visualisasi yang mudah dipahami, termasuk cash flow, profit/loss, dan analisis penjualan.</li>
+                        <li><strong>Micro Credit:</strong> Sistem penilaian kredit berbasis AI yang menganalisis transaksi history dan memberikan akses pinjaman modal usaha dengan bunga kompetitif.</li>
+                        <li><strong>Inventory Management:</strong> Fitur manajemen stok terintegrasi dengan sistem kasir digital, notifikasi stok rendah, dan forecasting demand.</li>
+                        <li><strong>Tax Compliance:</strong> Otomatis generate laporan pajak dan membantu UMKM comply dengan regulasi perpajakan Indonesia.</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Teknologi yang Digunakan</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <strong>Frontend:</strong><br>
+                            Vue.js, Nuxt.js, Vuetify, PWA
+                        </div>
+                        <div class="tech-item">
+                            <strong>Backend:</strong><br>
+                            Laravel 10, PHP 8, RESTful API
+                        </div>
+                        <div class="tech-item">
+                            <strong>Database:</strong><br>
+                            MySQL 8, Redis, Elasticsearch
+                        </div>
+                        <div class="tech-item">
+                            <strong>Payment:</strong><br>
+                            Midtrans, Xendit, Bank APIs
+                        </div>
+                        <div class="tech-item">
+                            <strong>Security:</strong><br>
+                            JWT, OAuth 2.0, SSL/TLS, OTP
+                        </div>
+                        <div class="tech-item">
+                            <strong>Cloud:</strong><br>
+                            Google Cloud Platform, Firebase
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>Flowchart & ERD Aplikasi</h2>
+                    <div class="flowchart-erd">
+                        <h3>📊 Flowchart Sistem</h3>
+                        <p><strong>Business Registration</strong> → <strong>KYC Verification</strong> → <strong>Dashboard Setup</strong> → <strong>Payment Gateway Integration</strong> → <strong>Transaction Processing</strong> → <strong>Financial Recording</strong> → <strong>Analytics & Reporting</strong> → <strong>Credit Scoring</strong> → <strong>Loan Application</strong></p>
+                        
+                        <h3>🗂️ Entity Relationship Diagram (ERD)</h3>
+                        <p><strong>Users</strong> (user_id, business_name, owner_name, phone) ↔ <strong>Businesses</strong> (business_id, type, address, verification_status) ↔ <strong>Transactions</strong> (transaction_id, amount, type, status, timestamp) ↔ <strong>Products</strong> (product_id, name, price, stock, category) ↔ <strong>Credit_Scores</strong> (score_id, rating, factors, updated_at) ↔ <strong>Financial_Reports</strong> (report_id, period, revenue, expenses, profit)</p>
+                        
+                        <h3>🔄 Payment Processing Flow</h3>
+                        <p><strong>Customer Order</strong> → <strong>Payment Selection</strong> → <strong>Gateway Processing</strong> → <strong>Payment Verification</strong> → <strong>Transaction Recording</strong> → <strong>Merchant Notification</strong> → <strong>Settlement Process</strong></p>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2>Fitur Lengkap Platform</h2>
+                    <ul>
+                        <li><strong>Digital Payment:</strong> QRIS generator, payment link, recurring billing</li>
+                        <li><strong>Point of Sale (POS):</strong> Kasir digital dengan printer thermal support</li>
+                        <li><strong>Inventory Tracking:</strong> Real-time stock monitoring dan automated reorder</li>
+                        <li><strong>Customer Management:</strong> Database pelanggan dengan loyalty program</li>
+                        <li><strong>Financial Analytics:</strong> Sales trend, customer behavior, ROI analysis</li>
+                        <li><strong>Multi-location:</strong> Support untuk bisnis dengan multiple outlets</li>
+                        <li><strong>Staff Management:</strong> User roles dan access control untuk karyawan</li>
+                        <li><strong>Integration APIs:</strong> Connect dengan accounting software dan marketplace</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Model Bisnis & Pricing</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <strong>Starter Plan:</strong><br>
+                            Rp 29.000/bulan<br>
+                            Basic POS + Payment Gateway
+                        </div>
+                        <div class="tech-item">
+                            <strong>Business Plan:</strong><br>
+                            Rp 79.000/bulan<br>
+                            Full Features + Analytics
+                        </div>
+                        <div class="tech-item">
+                            <strong>Enterprise:</strong><br>
+                            Custom Pricing<br>
+                            Multi-location + API Access
+                        </div>
+                    </div>
+                    <p><strong>Revenue Streams:</strong> Monthly subscription, transaction fees (0.7-2.9%), premium features, dan partnership commissions.</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>Target Market</h2>
+                    <ul>
+                        <li><strong>Warung & Toko Kelontong:</strong> 12+ juta unit di Indonesia yang butuh digitalisasi</li>
+                        <li><strong>Kuliner (Warteg, Cafe, Restaurant):</strong> Segmen dengan volume transaksi tinggi</li>
+                        <li><strong>Fashion & Retail:</strong> Toko pakaian, aksesoris, dan produk lifestyle</li>
+                        <li><strong>Jasa (Salon, Bengkel, Laundry):</strong> Service business yang butuh appointment scheduling</li>
+                        <li><strong>Online Sellers:</strong> Merchant marketplace yang ingin expand ke offline</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Compliance & Regulation</h2>
+                    <p>FinTech Solution mematuhi semua regulasi yang berlaku di Indonesia:</p>
+                    <ul>
+                        <li><strong>Bank Indonesia (BI):</strong> Terdaftar sebagai Payment System Provider</li>
+                        <li><strong>OJK (Otoritas Jasa Keuangan):</strong> Compliance untuk layanan pinjaman</li>
+                        <li><strong>Kominfo:</strong> Sertifikasi PSE (Penyelenggara Sistem Elektronik)</li>
+                        <li><strong>Data Protection:</strong> Mematuhi UU Perlindungan Data Pribadi</li>
+                        <li><strong>Anti Money Laundering:</strong> Implementasi KYC dan transaction monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Status Pengembangan</h2>
+                    <p><strong>Status:</strong> <span style="background: linear-gradient(45deg, #4CAF50, #45a049); color: white; padding: 5px 15px; border-radius: 20px;">Beta Testing</span></p>
+                    <p><strong>Current Phase:</strong> Closed Beta dengan 500+ merchant partner</p>
+                    <p><strong>Beta Results:</strong> 94% user satisfaction, 40% increase in merchant revenue</p>
+                    <p><strong>Public Launch:</strong> Q1 2025</p>
+                    <p><strong>Target Users:</strong> 10,000 active merchants dalam tahun pertama</p>
+                </div>
+
+                <a href="../index.html" class="back-button">← Kembali ke Beranda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechVision</h3>
+                    <p>Startup teknologi terdepan yang fokus pada inovasi digital untuk masa depan yang lebih baik.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Lokasi</h3>
+                    <p>Jl. Malioboro No. 123<br>
+                    Yogyakarta, DIY 55271<br>
+                    Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p>Email: info@techvision.id</p>
+                    <p>Telepon: +62 274 123 456</p>
+                    <p>Instagram: @techvision_id</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechVision. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
