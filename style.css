@@ -75,6 +75,20 @@ body {
     color: #667eea;
 }
 
+.hamburger-menu {
+    display: none; /* Sembunyikan secara default */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -513,5 +527,30 @@ body {
 
     .tech-grid {
         grid-template-columns: 1fr;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgba(14, 21, 40, 0.95);
+        padding: 1rem 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .hamburger-menu {
+        display: flex;
     }
 }
