@@ -3,6 +3,7 @@
 ## 🚀 Tentang TechVision
 
 TechVision adalah startup teknologi yang berdedikasi untuk menciptakan solusi digital inovatif yang dapat mengubah cara hidup masyarakat. Kami fokus pada pengembangan aplikasi yang user-friendly, scalable, dan berdampak positif untuk masa depan digital Indonesia.
+link deploy: https://contoh-evaluasi.vercel.app/
 
 ## 📁 Struktur Project
 
